@@ -24,7 +24,7 @@ chmod 700 .ssh/authorized_keys
 
 ```bash
 vim /etc/ssh/sshd_config
-> Port 60237
+> Port 53037
 > PasswordAuthentication no
 > PermitRootLogin no
 service sshd restart
@@ -33,9 +33,9 @@ service sshd restart
 ## 配置ssh_config
 
 ```bash
-Host qrw
-    user qrw
-    HostName 110.32.35.211
-    Port 60237
+Host user
+    user user
+    HostName 110.22.15.212
+    Port 53037
     IdentityFile  ~/.ssh/path/id_rsa
 ```

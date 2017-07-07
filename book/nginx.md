@@ -1,0 +1,25 @@
+# Centos配置Nginx
+
+## 第一步，在/etc/yum.repos.d/目录下创建一个源配置文件nginx.repo：
+```
+cd /etc/yum.repos.d/
+vim nginx.repo
+```
+
+
+填写如下内容：
+
+```
+[nginx]
+name=nginx repo
+baseurl=http://nginx.org/packages/centos/$releasever/$basearch/
+gpgcheck=0
+enabled=1
+```
+
+## 保存，则会产生一个/etc/yum.repos.d/nginx.repo文件。
+
+下面直接执行如下指令即可自动安装好Nginx：
+```
+yum install nginx -y
+```
