@@ -3,6 +3,7 @@
 * [简介](README.md)
 * [open-falcon](open-falcon.md)
 * [ssh](ssh.md)
+* [fabric](fabric.md)
 * [nginx](nginx.md)
 * [python](python.md)
 * [htop](htop.md)
