@@ -23,3 +23,18 @@ enabled=1
 ```
 yum install nginx -y
 ```
+
+## 热更新
+
+```shell
+nginx -s reload
+```
+
+## 调优
+
+> https://www.mtyun.com/library/30/how-to-optimize-nginx/
+
+
+- worker_processes NGINX工作进程数，建议设置成自动的
+- worker_connections 每个工作进程可以处理并发的最大连接数
+
