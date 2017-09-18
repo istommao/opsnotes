@@ -38,3 +38,6 @@ nginx -s reload
 - worker_processes NGINX工作进程数，建议设置成自动的
 - worker_connections 每个工作进程可以处理并发的最大连接数
 
+## 日志分析 goaccess
+
+- https://github.com/allinurl/goaccess
