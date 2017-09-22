@@ -9,3 +9,17 @@
 ```shell
 npm install pm2@latest -g
 ```
+
+`启动`
+
+```shell
+pm2 start app.sh
+```
+
+```shell
+pm2 list
+```
+
+```shell
+pm2 restart app.sh
+```
